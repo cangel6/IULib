@@ -1,0 +1,386 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		20233D921505CAD7001A2217 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 20233D911505CAD7001A2217 /* UIKit.framework */; };
+		20233D941505CAD7001A2217 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 20233D931505CAD7001A2217 /* Foundation.framework */; };
+		20233D961505CAD7001A2217 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 20233D951505CAD7001A2217 /* CoreGraphics.framework */; };
+		20233D9C1505CAD7001A2217 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 20233D9A1505CAD7001A2217 /* InfoPlist.strings */; };
+		20233D9E1505CAD7001A2217 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 20233D9D1505CAD7001A2217 /* main.m */; };
+		20233DA21505CAD7001A2217 /* IUAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 20233DA11505CAD7001A2217 /* IUAppDelegate.m */; };
+		20233DCA1505CAF2001A2217 /* bar-background.png in Resources */ = {isa = PBXBuildFile; fileRef = 20233DBD1505CAF2001A2217 /* bar-background.png */; };
+		20233DCB1505CAF2001A2217 /* bar-background@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 20233DBE1505CAF2001A2217 /* bar-background@2x.png */; };
+		20233DCC1505CAF2001A2217 /* bar-highlight.png in Resources */ = {isa = PBXBuildFile; fileRef = 20233DBF1505CAF2001A2217 /* bar-highlight.png */; };
+		20233DCD1505CAF2001A2217 /* bar-highlight@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 20233DC01505CAF2001A2217 /* bar-highlight@2x.png */; };
+		20233DCE1505CAF2001A2217 /* handle-hover.png in Resources */ = {isa = PBXBuildFile; fileRef = 20233DC11505CAF2001A2217 /* handle-hover.png */; };
+		20233DCF1505CAF2001A2217 /* handle-hover@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 20233DC21505CAF2001A2217 /* handle-hover@2x.png */; };
+		20233DD01505CAF2001A2217 /* handle.png in Resources */ = {isa = PBXBuildFile; fileRef = 20233DC31505CAF2001A2217 /* handle.png */; };
+		20233DD11505CAF2001A2217 /* handle@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 20233DC41505CAF2001A2217 /* handle@2x.png */; };
+		20233DD21505CAF2001A2217 /* IURangeSliderControl.m in Sources */ = {isa = PBXBuildFile; fileRef = 20233DC61505CAF2001A2217 /* IURangeSliderControl.m */; };
+		20233DD31505CAF2001A2217 /* IUSegmentedControl.m in Sources */ = {isa = PBXBuildFile; fileRef = 20233DC91505CAF2001A2217 /* IUSegmentedControl.m */; };
+		20233DD71505CF69001A2217 /* TestData.dat in Resources */ = {isa = PBXBuildFile; fileRef = 20233DD61505CF69001A2217 /* TestData.dat */; };
+		20233E111505FB7E001A2217 /* TestListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 20233E101505FB7E001A2217 /* TestListViewController.m */; };
+		20233E2D15060C50001A2217 /* TestIURangeSliderControl.m in Sources */ = {isa = PBXBuildFile; fileRef = 20233E2B15060C50001A2217 /* TestIURangeSliderControl.m */; };
+		20233E2E15060C50001A2217 /* TestIURangeSliderControl.xib in Resources */ = {isa = PBXBuildFile; fileRef = 20233E2C15060C50001A2217 /* TestIURangeSliderControl.xib */; };
+		2076772615074DD700852095 /* TestIUSegmentedControl.m in Sources */ = {isa = PBXBuildFile; fileRef = 2076772415074DD700852095 /* TestIUSegmentedControl.m */; };
+		2076772715074DD700852095 /* TestIUSegmentedControl.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2076772515074DD700852095 /* TestIUSegmentedControl.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		20233D8D1505CAD7001A2217 /* IULib.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = IULib.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		20233D911505CAD7001A2217 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		20233D931505CAD7001A2217 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		20233D951505CAD7001A2217 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		20233D991505CAD7001A2217 /* IULib-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "IULib-Info.plist"; sourceTree = "<group>"; };
+		20233D9B1505CAD7001A2217 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		20233D9D1505CAD7001A2217 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		20233D9F1505CAD7001A2217 /* IULib-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "IULib-Prefix.pch"; sourceTree = "<group>"; };
+		20233DA01505CAD7001A2217 /* IUAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IUAppDelegate.h; sourceTree = "<group>"; };
+		20233DA11505CAD7001A2217 /* IUAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IUAppDelegate.m; sourceTree = "<group>"; };
+		20233DBD1505CAF2001A2217 /* bar-background.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "bar-background.png"; sourceTree = "<group>"; };
+		20233DBE1505CAF2001A2217 /* bar-background@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "bar-background@2x.png"; sourceTree = "<group>"; };
+		20233DBF1505CAF2001A2217 /* bar-highlight.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "bar-highlight.png"; sourceTree = "<group>"; };
+		20233DC01505CAF2001A2217 /* bar-highlight@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "bar-highlight@2x.png"; sourceTree = "<group>"; };
+		20233DC11505CAF2001A2217 /* handle-hover.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "handle-hover.png"; sourceTree = "<group>"; };
+		20233DC21505CAF2001A2217 /* handle-hover@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "handle-hover@2x.png"; sourceTree = "<group>"; };
+		20233DC31505CAF2001A2217 /* handle.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = handle.png; sourceTree = "<group>"; };
+		20233DC41505CAF2001A2217 /* handle@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "handle@2x.png"; sourceTree = "<group>"; };
+		20233DC51505CAF2001A2217 /* IURangeSliderControl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IURangeSliderControl.h; sourceTree = "<group>"; };
+		20233DC61505CAF2001A2217 /* IURangeSliderControl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IURangeSliderControl.m; sourceTree = "<group>"; };
+		20233DC81505CAF2001A2217 /* IUSegmentedControl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IUSegmentedControl.h; sourceTree = "<group>"; };
+		20233DC91505CAF2001A2217 /* IUSegmentedControl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IUSegmentedControl.m; sourceTree = "<group>"; };
+		20233DD61505CF69001A2217 /* TestData.dat */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = TestData.dat; path = ../TestData.dat; sourceTree = "<group>"; };
+		20233E0F1505FB7E001A2217 /* TestListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestListViewController.h; sourceTree = "<group>"; };
+		20233E101505FB7E001A2217 /* TestListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestListViewController.m; sourceTree = "<group>"; };
+		20233E2A15060C50001A2217 /* TestIURangeSliderControl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestIURangeSliderControl.h; sourceTree = "<group>"; };
+		20233E2B15060C50001A2217 /* TestIURangeSliderControl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestIURangeSliderControl.m; sourceTree = "<group>"; };
+		20233E2C15060C50001A2217 /* TestIURangeSliderControl.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TestIURangeSliderControl.xib; sourceTree = "<group>"; };
+		2076772315074DD700852095 /* TestIUSegmentedControl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestIUSegmentedControl.h; sourceTree = "<group>"; };
+		2076772415074DD700852095 /* TestIUSegmentedControl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestIUSegmentedControl.m; sourceTree = "<group>"; };
+		2076772515074DD700852095 /* TestIUSegmentedControl.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TestIUSegmentedControl.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		20233D8A1505CAD7001A2217 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				20233D921505CAD7001A2217 /* UIKit.framework in Frameworks */,
+				20233D941505CAD7001A2217 /* Foundation.framework in Frameworks */,
+				20233D961505CAD7001A2217 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		20233D821505CAD7001A2217 = {
+			isa = PBXGroup;
+			children = (
+				20233D971505CAD7001A2217 /* IULib */,
+				20233D901505CAD7001A2217 /* Frameworks */,
+				20233D8E1505CAD7001A2217 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		20233D8E1505CAD7001A2217 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				20233D8D1505CAD7001A2217 /* IULib.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		20233D901505CAD7001A2217 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				20233D911505CAD7001A2217 /* UIKit.framework */,
+				20233D931505CAD7001A2217 /* Foundation.framework */,
+				20233D951505CAD7001A2217 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		20233D971505CAD7001A2217 /* IULib */ = {
+			isa = PBXGroup;
+			children = (
+				20233DD81505CFE9001A2217 /* TestViewControllers */,
+				20233DBA1505CAF2001A2217 /* CustomControls */,
+				20233DA01505CAD7001A2217 /* IUAppDelegate.h */,
+				20233DA11505CAD7001A2217 /* IUAppDelegate.m */,
+				20233D981505CAD7001A2217 /* Supporting Files */,
+			);
+			path = IULib;
+			sourceTree = "<group>";
+		};
+		20233D981505CAD7001A2217 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				20233D991505CAD7001A2217 /* IULib-Info.plist */,
+				20233D9A1505CAD7001A2217 /* InfoPlist.strings */,
+				20233D9D1505CAD7001A2217 /* main.m */,
+				20233D9F1505CAD7001A2217 /* IULib-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		20233DBA1505CAF2001A2217 /* CustomControls */ = {
+			isa = PBXGroup;
+			children = (
+				20233DBB1505CAF2001A2217 /* IURangeSliderControl */,
+				20233DC71505CAF2001A2217 /* IUSegmentedControl */,
+			);
+			path = CustomControls;
+			sourceTree = "<group>";
+		};
+		20233DBB1505CAF2001A2217 /* IURangeSliderControl */ = {
+			isa = PBXGroup;
+			children = (
+				20233DBC1505CAF2001A2217 /* images */,
+				20233DC51505CAF2001A2217 /* IURangeSliderControl.h */,
+				20233DC61505CAF2001A2217 /* IURangeSliderControl.m */,
+			);
+			path = IURangeSliderControl;
+			sourceTree = "<group>";
+		};
+		20233DBC1505CAF2001A2217 /* images */ = {
+			isa = PBXGroup;
+			children = (
+				20233DBD1505CAF2001A2217 /* bar-background.png */,
+				20233DBE1505CAF2001A2217 /* bar-background@2x.png */,
+				20233DBF1505CAF2001A2217 /* bar-highlight.png */,
+				20233DC01505CAF2001A2217 /* bar-highlight@2x.png */,
+				20233DC11505CAF2001A2217 /* handle-hover.png */,
+				20233DC21505CAF2001A2217 /* handle-hover@2x.png */,
+				20233DC31505CAF2001A2217 /* handle.png */,
+				20233DC41505CAF2001A2217 /* handle@2x.png */,
+			);
+			path = images;
+			sourceTree = "<group>";
+		};
+		20233DC71505CAF2001A2217 /* IUSegmentedControl */ = {
+			isa = PBXGroup;
+			children = (
+				20233DC81505CAF2001A2217 /* IUSegmentedControl.h */,
+				20233DC91505CAF2001A2217 /* IUSegmentedControl.m */,
+			);
+			path = IUSegmentedControl;
+			sourceTree = "<group>";
+		};
+		20233DD81505CFE9001A2217 /* TestViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				20233DD61505CF69001A2217 /* TestData.dat */,
+				20233E0F1505FB7E001A2217 /* TestListViewController.h */,
+				20233E101505FB7E001A2217 /* TestListViewController.m */,
+				20233DDA1505CFF2001A2217 /* Controls */,
+			);
+			path = TestViewControllers;
+			sourceTree = "<group>";
+		};
+		20233DDA1505CFF2001A2217 /* Controls */ = {
+			isa = PBXGroup;
+			children = (
+				20233E2A15060C50001A2217 /* TestIURangeSliderControl.h */,
+				20233E2B15060C50001A2217 /* TestIURangeSliderControl.m */,
+				20233E2C15060C50001A2217 /* TestIURangeSliderControl.xib */,
+				2076772315074DD700852095 /* TestIUSegmentedControl.h */,
+				2076772415074DD700852095 /* TestIUSegmentedControl.m */,
+				2076772515074DD700852095 /* TestIUSegmentedControl.xib */,
+			);
+			path = Controls;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		20233D8C1505CAD7001A2217 /* IULib */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 20233DB71505CAD7001A2217 /* Build configuration list for PBXNativeTarget "IULib" */;
+			buildPhases = (
+				20233D891505CAD7001A2217 /* Sources */,
+				20233D8A1505CAD7001A2217 /* Frameworks */,
+				20233D8B1505CAD7001A2217 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = IULib;
+			productName = IULib;
+			productReference = 20233D8D1505CAD7001A2217 /* IULib.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		20233D841505CAD7001A2217 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+			};
+			buildConfigurationList = 20233D871505CAD7001A2217 /* Build configuration list for PBXProject "IULib" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 20233D821505CAD7001A2217;
+			productRefGroup = 20233D8E1505CAD7001A2217 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				20233D8C1505CAD7001A2217 /* IULib */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		20233D8B1505CAD7001A2217 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				20233D9C1505CAD7001A2217 /* InfoPlist.strings in Resources */,
+				20233DCA1505CAF2001A2217 /* bar-background.png in Resources */,
+				20233DCB1505CAF2001A2217 /* bar-background@2x.png in Resources */,
+				20233DCC1505CAF2001A2217 /* bar-highlight.png in Resources */,
+				20233DCD1505CAF2001A2217 /* bar-highlight@2x.png in Resources */,
+				20233DCE1505CAF2001A2217 /* handle-hover.png in Resources */,
+				20233DCF1505CAF2001A2217 /* handle-hover@2x.png in Resources */,
+				20233DD01505CAF2001A2217 /* handle.png in Resources */,
+				20233DD11505CAF2001A2217 /* handle@2x.png in Resources */,
+				20233DD71505CF69001A2217 /* TestData.dat in Resources */,
+				20233E2E15060C50001A2217 /* TestIURangeSliderControl.xib in Resources */,
+				2076772715074DD700852095 /* TestIUSegmentedControl.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		20233D891505CAD7001A2217 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				20233D9E1505CAD7001A2217 /* main.m in Sources */,
+				20233DA21505CAD7001A2217 /* IUAppDelegate.m in Sources */,
+				20233DD21505CAF2001A2217 /* IURangeSliderControl.m in Sources */,
+				20233DD31505CAF2001A2217 /* IUSegmentedControl.m in Sources */,
+				20233E111505FB7E001A2217 /* TestListViewController.m in Sources */,
+				20233E2D15060C50001A2217 /* TestIURangeSliderControl.m in Sources */,
+				2076772615074DD700852095 /* TestIUSegmentedControl.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		20233D9A1505CAD7001A2217 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				20233D9B1505CAD7001A2217 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		20233DB51505CAD7001A2217 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		20233DB61505CAD7001A2217 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		20233DB81505CAD7001A2217 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "IULib/IULib-Prefix.pch";
+				INFOPLIST_FILE = "IULib/IULib-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		20233DB91505CAD7001A2217 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "IULib/IULib-Prefix.pch";
+				INFOPLIST_FILE = "IULib/IULib-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		20233D871505CAD7001A2217 /* Build configuration list for PBXProject "IULib" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				20233DB51505CAD7001A2217 /* Debug */,
+				20233DB61505CAD7001A2217 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		20233DB71505CAD7001A2217 /* Build configuration list for PBXNativeTarget "IULib" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				20233DB81505CAD7001A2217 /* Debug */,
+				20233DB91505CAD7001A2217 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 20233D841505CAD7001A2217 /* Project object */;
+}
