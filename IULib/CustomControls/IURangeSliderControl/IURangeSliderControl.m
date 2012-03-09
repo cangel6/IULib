@@ -8,6 +8,11 @@
 
 #import "IURangeSliderControl.h"
 
+/**
+ *@category IURangeSliderControl(PrivateMethods)
+ *@brief    IURangeSliderControl의 PrivateMethods
+ *@author   Cangel
+ */
 @interface IURangeSliderControl (PrivateMethods)
 
 -(float)xForValue:(float)value;

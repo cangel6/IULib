@@ -29,6 +29,21 @@
 		20233E2E15060C50001A2217 /* TestIURangeSliderControl.xib in Resources */ = {isa = PBXBuildFile; fileRef = 20233E2C15060C50001A2217 /* TestIURangeSliderControl.xib */; };
 		2076772615074DD700852095 /* TestIUSegmentedControl.m in Sources */ = {isa = PBXBuildFile; fileRef = 2076772415074DD700852095 /* TestIUSegmentedControl.m */; };
 		2076772715074DD700852095 /* TestIUSegmentedControl.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2076772515074DD700852095 /* TestIUSegmentedControl.xib */; };
+		209895351508596B0081F070 /* IUFlowCoverView.m in Sources */ = {isa = PBXBuildFile; fileRef = 209895341508596B0081F070 /* IUFlowCoverView.m */; };
+		2098953F15087C230081F070 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2098953E15087C230081F070 /* QuartzCore.framework */; };
+		2098954215087C2E0081F070 /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2098954115087C2E0081F070 /* OpenGLES.framework */; };
+		2098955A1508AEC70081F070 /* TestIUFlowCoverView.m in Sources */ = {isa = PBXBuildFile; fileRef = 209895581508AEC70081F070 /* TestIUFlowCoverView.m */; };
+		2098955B1508AEC70081F070 /* TestIUFlowCoverView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 209895591508AEC70081F070 /* TestIUFlowCoverView.xib */; };
+		20F1DB321509860E000DB743 /* IUCoverFlowView01.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 20F1DB281509860E000DB743 /* IUCoverFlowView01.jpg */; };
+		20F1DB331509860E000DB743 /* IUCoverFlowView02.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 20F1DB291509860E000DB743 /* IUCoverFlowView02.jpg */; };
+		20F1DB341509860E000DB743 /* IUCoverFlowView03.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 20F1DB2A1509860E000DB743 /* IUCoverFlowView03.jpg */; };
+		20F1DB351509860E000DB743 /* IUCoverFlowView04.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 20F1DB2B1509860E000DB743 /* IUCoverFlowView04.jpg */; };
+		20F1DB361509860E000DB743 /* IUCoverFlowView05.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 20F1DB2C1509860E000DB743 /* IUCoverFlowView05.jpg */; };
+		20F1DB371509860E000DB743 /* IUCoverFlowView06.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 20F1DB2D1509860E000DB743 /* IUCoverFlowView06.jpg */; };
+		20F1DB381509860E000DB743 /* IUCoverFlowView07.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 20F1DB2E1509860E000DB743 /* IUCoverFlowView07.jpg */; };
+		20F1DB391509860E000DB743 /* IUCoverFlowView08.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 20F1DB2F1509860E000DB743 /* IUCoverFlowView08.jpg */; };
+		20F1DB3A1509860E000DB743 /* IUCoverFlowView09.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 20F1DB301509860E000DB743 /* IUCoverFlowView09.jpg */; };
+		20F1DB3B1509860E000DB743 /* IUCoverFlowView10.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 20F1DB311509860E000DB743 /* IUCoverFlowView10.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -63,6 +78,23 @@
 		2076772315074DD700852095 /* TestIUSegmentedControl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestIUSegmentedControl.h; sourceTree = "<group>"; };
 		2076772415074DD700852095 /* TestIUSegmentedControl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestIUSegmentedControl.m; sourceTree = "<group>"; };
 		2076772515074DD700852095 /* TestIUSegmentedControl.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TestIUSegmentedControl.xib; sourceTree = "<group>"; };
+		209895331508596B0081F070 /* IUFlowCoverView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IUFlowCoverView.h; sourceTree = "<group>"; };
+		209895341508596B0081F070 /* IUFlowCoverView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IUFlowCoverView.m; sourceTree = "<group>"; };
+		2098953E15087C230081F070 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		2098954115087C2E0081F070 /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
+		209895571508AEC70081F070 /* TestIUFlowCoverView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestIUFlowCoverView.h; sourceTree = "<group>"; };
+		209895581508AEC70081F070 /* TestIUFlowCoverView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestIUFlowCoverView.m; sourceTree = "<group>"; };
+		209895591508AEC70081F070 /* TestIUFlowCoverView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TestIUFlowCoverView.xib; sourceTree = "<group>"; };
+		20F1DB281509860E000DB743 /* IUCoverFlowView01.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = IUCoverFlowView01.jpg; sourceTree = "<group>"; };
+		20F1DB291509860E000DB743 /* IUCoverFlowView02.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = IUCoverFlowView02.jpg; sourceTree = "<group>"; };
+		20F1DB2A1509860E000DB743 /* IUCoverFlowView03.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = IUCoverFlowView03.jpg; sourceTree = "<group>"; };
+		20F1DB2B1509860E000DB743 /* IUCoverFlowView04.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = IUCoverFlowView04.jpg; sourceTree = "<group>"; };
+		20F1DB2C1509860E000DB743 /* IUCoverFlowView05.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = IUCoverFlowView05.jpg; sourceTree = "<group>"; };
+		20F1DB2D1509860E000DB743 /* IUCoverFlowView06.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = IUCoverFlowView06.jpg; sourceTree = "<group>"; };
+		20F1DB2E1509860E000DB743 /* IUCoverFlowView07.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = IUCoverFlowView07.jpg; sourceTree = "<group>"; };
+		20F1DB2F1509860E000DB743 /* IUCoverFlowView08.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = IUCoverFlowView08.jpg; sourceTree = "<group>"; };
+		20F1DB301509860E000DB743 /* IUCoverFlowView09.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = IUCoverFlowView09.jpg; sourceTree = "<group>"; };
+		20F1DB311509860E000DB743 /* IUCoverFlowView10.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = IUCoverFlowView10.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -70,6 +102,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2098954215087C2E0081F070 /* OpenGLES.framework in Frameworks */,
+				2098953F15087C230081F070 /* QuartzCore.framework in Frameworks */,
 				20233D921505CAD7001A2217 /* UIKit.framework in Frameworks */,
 				20233D941505CAD7001A2217 /* Foundation.framework in Frameworks */,
 				20233D961505CAD7001A2217 /* CoreGraphics.framework in Frameworks */,
@@ -99,6 +133,8 @@
 		20233D901505CAD7001A2217 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				2098954115087C2E0081F070 /* OpenGLES.framework */,
+				2098953E15087C230081F070 /* QuartzCore.framework */,
 				20233D911505CAD7001A2217 /* UIKit.framework */,
 				20233D931505CAD7001A2217 /* Foundation.framework */,
 				20233D951505CAD7001A2217 /* CoreGraphics.framework */,
@@ -132,6 +168,7 @@
 		20233DBA1505CAF2001A2217 /* CustomControls */ = {
 			isa = PBXGroup;
 			children = (
+				20989531150859470081F070 /* IUFlowCoverView */,
 				20233DBB1505CAF2001A2217 /* IURangeSliderControl */,
 				20233DC71505CAF2001A2217 /* IUSegmentedControl */,
 			);
@@ -186,14 +223,44 @@
 		20233DDA1505CFF2001A2217 /* Controls */ = {
 			isa = PBXGroup;
 			children = (
+				2098955D1508AFFB0081F070 /* images */,
 				20233E2A15060C50001A2217 /* TestIURangeSliderControl.h */,
 				20233E2B15060C50001A2217 /* TestIURangeSliderControl.m */,
 				20233E2C15060C50001A2217 /* TestIURangeSliderControl.xib */,
 				2076772315074DD700852095 /* TestIUSegmentedControl.h */,
 				2076772415074DD700852095 /* TestIUSegmentedControl.m */,
 				2076772515074DD700852095 /* TestIUSegmentedControl.xib */,
+				209895571508AEC70081F070 /* TestIUFlowCoverView.h */,
+				209895581508AEC70081F070 /* TestIUFlowCoverView.m */,
+				209895591508AEC70081F070 /* TestIUFlowCoverView.xib */,
 			);
 			path = Controls;
+			sourceTree = "<group>";
+		};
+		20989531150859470081F070 /* IUFlowCoverView */ = {
+			isa = PBXGroup;
+			children = (
+				209895331508596B0081F070 /* IUFlowCoverView.h */,
+				209895341508596B0081F070 /* IUFlowCoverView.m */,
+			);
+			path = IUFlowCoverView;
+			sourceTree = "<group>";
+		};
+		2098955D1508AFFB0081F070 /* images */ = {
+			isa = PBXGroup;
+			children = (
+				20F1DB281509860E000DB743 /* IUCoverFlowView01.jpg */,
+				20F1DB291509860E000DB743 /* IUCoverFlowView02.jpg */,
+				20F1DB2A1509860E000DB743 /* IUCoverFlowView03.jpg */,
+				20F1DB2B1509860E000DB743 /* IUCoverFlowView04.jpg */,
+				20F1DB2C1509860E000DB743 /* IUCoverFlowView05.jpg */,
+				20F1DB2D1509860E000DB743 /* IUCoverFlowView06.jpg */,
+				20F1DB2E1509860E000DB743 /* IUCoverFlowView07.jpg */,
+				20F1DB2F1509860E000DB743 /* IUCoverFlowView08.jpg */,
+				20F1DB301509860E000DB743 /* IUCoverFlowView09.jpg */,
+				20F1DB311509860E000DB743 /* IUCoverFlowView10.jpg */,
+			);
+			path = images;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -258,6 +325,17 @@
 				20233DD71505CF69001A2217 /* TestData.dat in Resources */,
 				20233E2E15060C50001A2217 /* TestIURangeSliderControl.xib in Resources */,
 				2076772715074DD700852095 /* TestIUSegmentedControl.xib in Resources */,
+				2098955B1508AEC70081F070 /* TestIUFlowCoverView.xib in Resources */,
+				20F1DB321509860E000DB743 /* IUCoverFlowView01.jpg in Resources */,
+				20F1DB331509860E000DB743 /* IUCoverFlowView02.jpg in Resources */,
+				20F1DB341509860E000DB743 /* IUCoverFlowView03.jpg in Resources */,
+				20F1DB351509860E000DB743 /* IUCoverFlowView04.jpg in Resources */,
+				20F1DB361509860E000DB743 /* IUCoverFlowView05.jpg in Resources */,
+				20F1DB371509860E000DB743 /* IUCoverFlowView06.jpg in Resources */,
+				20F1DB381509860E000DB743 /* IUCoverFlowView07.jpg in Resources */,
+				20F1DB391509860E000DB743 /* IUCoverFlowView08.jpg in Resources */,
+				20F1DB3A1509860E000DB743 /* IUCoverFlowView09.jpg in Resources */,
+				20F1DB3B1509860E000DB743 /* IUCoverFlowView10.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -275,6 +353,8 @@
 				20233E111505FB7E001A2217 /* TestListViewController.m in Sources */,
 				20233E2D15060C50001A2217 /* TestIURangeSliderControl.m in Sources */,
 				2076772615074DD700852095 /* TestIUSegmentedControl.m in Sources */,
+				209895351508596B0081F070 /* IUFlowCoverView.m in Sources */,
+				2098955A1508AEC70081F070 /* TestIUFlowCoverView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

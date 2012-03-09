@@ -13,6 +13,11 @@
 
 #define kCornerRadius   10.0f ///<코너 곡률
 
+/**
+ *@category IUSegmentedControl(PrivateMethods)
+ *@brief    IUSegmentedControl의 PrivateMethods
+ *@author   Cangel
+ */
 @interface IUSegmentedControl (PrivateMethods)
 - (BOOL)needCustomize;
 - (void)setTintColorSetting;
