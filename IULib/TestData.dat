@@ -3,4 +3,5 @@ Controls
 IURangeSliderControl
 IUSegmentedControl
 IUFlowCoverView
+IUBlockAlertView
 ====

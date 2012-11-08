@@ -327,7 +327,7 @@ const GLshort   GTextures[] = {
  *@return   이미지의 갯수
  */
 - (int)countOfTiles{
-    if (_pDataSource) {
+    if ([_pDataSource respondsToSelector:@selector(imageCountOfIUFlowCoverView:)]) {
         return [_pDataSource imageCountOfIUFlowCoverView:self];
     }else{
         return 0;
@@ -340,7 +340,7 @@ const GLshort   GTextures[] = {
  *@return   인덱스에 해당되는 이미지
  */
 - (UIImage *)getImage:(int)index{
-    if (_pDataSource) {
+    if ([_pDataSource respondsToSelector:@selector(getImageForIUFlowCoverView:index:)]) {
         return [_pDataSource getImageForIUFlowCoverView:self index:index];
     }else{
         return nil;
@@ -354,7 +354,7 @@ const GLshort   GTextures[] = {
  *@param    선택된 인덱스
  */
 - (void)selectAtIndex:(int)index{
-    if (_pDelegate) {
+    if ([_pDelegate respondsToSelector:@selector(didSelectedIUFlowCoverView:atIndex:)]) {
         [_pDelegate didSelectedIUFlowCoverView:self atIndex:index];
     }
 }
